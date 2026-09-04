@@ -1,0 +1,44 @@
+.title {
+  color: yellow;
+}
+
+button {
+  background-color: slateblue;
+}
+
+h2 {
+  margin: 50px;
+  padding: 50px;
+  border: 1px solid rgb(10, 65, 245);
+  font-size: 18px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Arial, Helvetica, sans-serif";
+}
+
+p {
+  color: blueviolet;
+  border: 1px solid black;
+  padding: 40px;
+  margin: 20px;
+}
+
+.fullname {
+  color: green;
+}
+
+#nickname {
+  color: red;
+}
+
+#message {
+  background: green;
+}
+
+.list-container {
+  border: 1px solid blue;
+}
+
+.list-item {
+  list-style-type: square;
+}
