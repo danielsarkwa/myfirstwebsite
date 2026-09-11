@@ -1,13 +1,87 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projects — Micheal Ansah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    Projects page
-
-    Ne content
-
-    <a href="./about.html">about page</a>
+    <div class="noise"></div>
+    <header class="site-header">
+      <a class="brand" href="./index.html"><span>MA</span>Micheal Ansah</a>
+      <nav>
+        <a href="./index.html">Profile</a
+        ><a class="active" href="./projects.html">Projects</a
+        ><a href="./about.html">About</a>
+      </nav>
+      <a class="header-cta" href="mailto:daniel@thrive.com">Let’s talk ↗</a>
+    </header>
+    <main class="subpage">
+      <section class="page-hero reveal">
+        <p class="eyebrow"><span></span>Selected experiments</p>
+        <h1>Ideas made<br /><em>visible.</em></h1>
+        <p>
+          A growing collection of school work, personal experiments, and new
+          skills in progress.
+        </p>
+      </section>
+      <section class="projects-grid">
+        <article class="project-card project-feature reveal">
+          <div class="project-art car-art">
+            <img
+              src="./images/wagon.jpg"
+              alt="A luxury wagon in the countryside"
+            />
+          </div>
+          <div class="project-info">
+            <span>01 · Web design</span>
+            <h2>My first portfolio</h2>
+            <p>
+              A personal corner of the internet built to share my story,
+              interests, and progress.
+            </p>
+            <a href="./index.html">↗</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art type-art"><span>A</span><span>+</span></div>
+          <div class="project-info">
+            <span>02 · Academic</span>
+            <h2>Study journal</h2>
+            <p>
+              Tracking lessons, grades, and the small wins that add up over
+              time.
+            </p>
+            <b>In progress</b>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art recipe-art">
+            <span>MISE<br />EN<br />PLACE</span>
+          </div>
+          <div class="project-info">
+            <span>03 · Personal</span>
+            <h2>Kitchen notes</h2>
+            <p>
+              A future collection of recipes, experiments, and family
+              favourites.
+            </p>
+            <b>Coming soon</b>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="./index.html"><span>MA</span>Micheal Ansah</a>
+      <p>Learning, creating, growing.</p>
+      <p>© <span id="year"></span> Micheal Ansah</p>
+    </footer>
+    <script src="./script.js"></script>
   </body>
 </html>

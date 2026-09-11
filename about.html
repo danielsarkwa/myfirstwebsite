@@ -1,11 +1,65 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About — Micheal Ansah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    About page
-
-    <a href="./index.html">home page</a>
+    <div class="noise"></div>
+    <header class="site-header">
+      <a class="brand" href="./index.html"><span>MA</span>Micheal Ansah</a>
+      <nav>
+        <a href="./index.html">Profile</a><a href="./projects.html">Projects</a
+        ><a class="active" href="./about.html">About</a>
+      </nav>
+      <a class="header-cta" href="mailto:daniel@thrive.com">Let’s talk ↗</a>
+    </header>
+    <main class="subpage">
+      <section class="page-hero reveal">
+        <p class="eyebrow"><span></span>Behind the profile</p>
+        <h1>A student shaped by<br /><em>curiosity & community.</em></h1>
+        <p>
+          I believe the best way to grow is to stay open: to new skills,
+          different people, and ideas that challenge how you see the world.
+        </p>
+      </section>
+      <section class="story-grid">
+        <div class="story-image reveal">
+          <img
+            src="./images/wagon.jpg"
+            alt="A classic car in an open landscape"
+          /><span>Keep exploring</span>
+        </div>
+        <div class="story-copy reveal">
+          <p class="card-number">My story</p>
+          <h2>Small steps,<br />real progress.</h2>
+          <p>
+            My name is Micheal Ansah, though most people know me as Bonzi Nicky.
+            My education began at Bright International School and continued at
+            Bonzi International Secondary.
+          </p>
+          <p>
+            Beyond academics, football teaches me teamwork, singing helps me
+            express myself, and cooking rewards patience and creativity.
+          </p>
+          <a class="button button-dark" href="./projects.html"
+            >View my projects ↗</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="brand" href="./index.html"><span>MA</span>Micheal Ansah</a>
+      <p>Learning, creating, growing.</p>
+      <p>© <span id="year"></span> Micheal Ansah</p>
+    </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
